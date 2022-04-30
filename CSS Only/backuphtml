@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL CV </title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+   <!---THE NAV BAR SECTION-->
+   <div class="navbar">
+    <nav>
+        <h2 class="logo"><span >konno</span>  meli</h2>
+        <ul>   
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#interest">interest</a></li>
+            <li><a href="#experience">experience</a></li>
+            <li><a href="#education">education</a></li>
+            <li><a href="#blog">blog</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+   </div>
+    <!---END OF  NAV BAR SECTION-->
+
+
+    <div id="main" class="main">
+
+     
+    
+        <!----ABOUT SECTION-->
+        <div class="about" id="about">
+            <div class="pic">
+                <img src="IMG_2127.png" alt="Personal Picture">
+              
+
+            </div>
+
+            <div class="info">
+                    <h1>konno meli fuente desire</h1>
+                    <h2 >UI DESIGNER / FRONT END DEVELOPER/ SOFTWARE DEVELOPER</h2>
+
+                    <div class="btn">
+                        <button  class="green"><a href="#contact">Contact</a></button>
+                    
+                        <button class="blue" type="submit" onclick="window.open('PERSONAL CV.pdf')">Download CV!</button>
+
+                    </div>
+                      <table>
+                            <tr>
+                              <td class="tt">age</td>
+                              <td>22</td>
+                            </tr>
+                          <tr>
+                            <td class="tt">address</td>
+                            <td>Yaounde Cite verte,Yoyo-bar N2313</td>
+                          </tr>
+                          <tr>
+                            <td class="tt">email</td>
+                            <td>Konomelifuente@gmail.com</td>
+                          </tr>
+                          <tr>
+                            <td class="tt">email2</td>
+                            <td>Konomelifuente@icloud.com</td>
+                          </tr>
+                          <tr>
+                            <td class="tt">phone</td>
+                            <td>653633002/690160047</td>
+                          </tr>
+                          <tr>
+                            <td class="tt">freelance</td>
+                          </tr>
+                      </table>
+            </div>
+        </div>
+
+
+
+        <!----END OF ABOUT SECTION-->
+
+
+
+        <div class="music-container">
+            <div class="box">
+                <div class="image">
+                    <img src="CV AUD.jpg" alt="">
+                </div>
+                <div class="music">
+                    <audio controls autoplay muted>
+                        <source src="my_CV.mp3" type="audio/mpeg">
+                      </audio><br>
+                      <span>play CV
+                      </span>
+                </div>
+            </div>
+        </div>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------>
+        
+    <!----STARTING SKILLS SECTION-->
+
+    <div class="skill" id="skill">
+        <div class="computer">
+
+            <h1>Computer Skills</h1>
+           <div class="contain">
+            <div class="progress" id="progress_0">
+                <h6>photoshop</h6>
+                <div class="progress-bar">
+                    <div class="progressing"></div>
+                    <span class="circle"></span>
+                </div>
+                <p class="percent">60%</p>
+            </div>
+
+            <div class="progress" id="progress_1">
+                <h6>wordpress</h6>
+                <div class="progress-bar">
+                    <div class="progressing"></div>
+                    <span class="circle"></span>
+                </div>
+                <p class="percent">80%</p>
+            </div>
+
+            <div class="progress" id="progress_2">
+                <h6>java</h6>
+                <div class="progress-bar">
+                    <div class="progressing"></div>
+                    <span class="circle"></span>
+                </div>
+                <p class="percent">70%</p>
+            </div>
+           </div>
+        </div>
+        <div class="computer">
+
+            <h1>general Skills</h1>
+           <div class="contain">
+            <div class="progress" id="progress_3">
+                <h6>french</h6>
+                <div class="progress-bar">
+                    <div class="progressing"></div>
+                    <span class="circle"></span>
+                </div>
+                <p class="percent">75%</p>
+            </div>
+
+            <div class="progress" id="progress_4">
+                <h6>englishs</h6>
+                <div class="progress-bar">
+                    <div class="progressing"></div>
+                    <span class="circle"></span>
+                </div>
+                <p class="percent">90%</p>
+            </div>
+
+            <div class="progress" id="progress_5">
+                <h6>general knowledge</h6>
+                <div class="progress-bar">
+                    <div class="progressing"></div>
+                    <span class="circle"></span>
+                </div>
+                <p class="percent">72%</p>
+            </div>
+           </div>
+        </div>
+    </div>
+
+
+    <!----END OF  SKILLS SECTION-->
+<!------------------------------------------------------------------------------------------------------------------------------------------------>
+        
+    <!----STARTING HOW I WORK SECTION-->
+
+        <div class="how">
+            <h1 class="topic">how i work !</h1>
+            <div class="how_content">
+                <div class="label">
+                    <img src="adobe_1_128px.png" alt="">
+                    <h2>photo editing</h2>
+                    <p>with the use of photoshop i edit abd design any of the pictures and logo i need for every development i do .</p>
+                </div>
+                <div class="label">
+                    <img src="wordpress_52px.png" alt="">
+                    <h2>web development</h2>
+                    <p>with the use of wordpress i have the capacity to build fast front end web page designe for my customer that dont nedd back end</p>
+                </div>
+                <div class="label">
+                    <img src="java_52px.png" alt="">
+                    <h2>desktop program</h2>
+                    <p>When i have to developed a desktop application i will use javafx which is a java front end property design to build desktop application.</p>
+                </div>
+                <div class="label">
+                    <img src="mysql_100px.png" alt="">
+                    <h2>database</h2>
+                    <p>All programmers need to manage a database for any program the do that why i use mysql on my side to connect to store information for my apllication</p>
+                </div>
+            </div>
+        </div>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------>
+        
+    <!----STARTING interest SECTION-->
+
+    <div class="interest" id="interest">
+        <h1 class="topic">interest</h1>
+        <div class="interest_content">
+            <div>
+                <img src="spotify_100px.png" alt="">
+                <h3>music</h3>
+            </div>
+
+            <div>
+                <img src="soccer_ball_60px.png" alt="">
+                <h3>football</h3>
+            </div>
+
+            <div>
+                <img src="party_60px.png" alt="">
+                <h3>party</h3>
+            </div>
+
+            <div>
+                <img src="computer_100px.png" alt="">
+                <h3>programming</h3>
+            </div>
+
+            <div>
+                <img src="camera.png" alt="">
+                <h3>photography</h3>
+            </div>
+
+            <div>
+                <img src="traveler_100px.png" alt="">
+                <h3>travelling</h3>
+            </div>
+        </div>
+    </div>
+
+
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------>
+        
+    <!----STARTING Exprience section SECTION-->
+    <div class="layer" id="experience">
+        <h1 class="topic">Exprience</h1>
+            <div class="content_layer">
+                <div class="r1">
+                    <div class="label" id="label1">
+                        <h2>Holiday Job</h2>
+                        <h3>2013-2018</h3>
+                        <h4>cervo sarl</h4>
+                        <p>I usaully spend my whole child hood ther inorder to fufill some od my
+                            basic need financially and help my parent but i also learn a lot of 
+                          experience being there which up still today still help me .</p>
+                    </div>
+                    <div class="label" id="label1">
+                        <h2>industrial stage</h2>
+                        <h3>June 2015-October 2015</h3>
+                        <h4>sotraco sarl</h4>
+                        <p>it was my fisrt industriall job where the enterprise was sitauted
+                           for from town and they manufactured nail and Zinc i experience my first
+                           Industrialle experience how work is manage ther and how people work ther e.</p>
+                    </div>
+
+                </div>
+
+                
+                <div class="r1">
+                    <div class="label" id="label2">
+                        <h2>Youth Week Stand</h2>
+                        <h3>Feb 2019</h3>
+                        <h4>personal activity</h4>
+                        <p>other wise other stuff that i did this was my fist personal
+                            whan were i had to put in a capitale invest and have my one and only benefice 
+                           i had the chance to put in value all what i have acquire in my past job when it comes to management.</p>
+                    </div>
+                    <div class="label" id="label2">
+                        <h2>Wordpress designer</h2>
+                        <h3>2022-present</h3>
+                        <h4>BlackRose Lux</h4>
+                        <p>the normal styff cames here which is my first part time job 
+                           up still today is the one that keep me alive in my basic need like transport and the rest 
+                          and i one of the stuff that i try to ameliorate everyday in my dailly life</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+   <!----STARTING school section SECTION-->
+    <div id="education" class="layer">
+        <h1 class="topic">education</h1>
+            <div class="content_layer">
+                <div class="r1">
+                    <div class="label" id="Elabel">
+                        <h2>GCE ordinary Level</h2>
+                        <h3>2017-2018</h3>
+                        <h4>PSS Mankon Bamenda</h4>
+                        
+                    </div>
+                    <div class="label" id="Elabel1">
+                        <h2>GCE Advance Level</h2>
+                        <h3>2020-2021</h3>
+                        <h4>Notre Dame Des Nation Douala</h4>
+                      
+                    </div>
+
+                </div>
+
+                
+                <div class="r1">
+                    <div class="label" id="Elabel">
+                        <h2>bachelor</h2>
+                        <h3>presently</h3>
+                        <h4>UY1</h4>
+                        
+                    </div>
+                    <div class="label" id="Elabel1">
+                        <h2>Wordpress certification</h2>
+                        <h3>2021</h3>
+                        <h4>udemy</h4>
+                        
+                    </div>
+            </div>
+        </div>
+    </div>
+
+         <!----STARTING blog section SECTION-->
+    <div class="blog" id="blog">
+        <h1 class="topic">blog</h1>
+        <div class="content_layer">
+            <div class="Blabel" >
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/PUJr5KlNVw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <div class="text">
+                <h3>Edited</h3>
+                <h2>An Editted Video on Youtube</h2>
+                <p>this video is a short story of my secondary school life which was a video editted by me.</p>
+               </div>
+            </div>
+
+            <div class="Blabel" >
+                <video width="400" controls Autoplay>
+                    <source src="friends.mov" type="video/mp4">
+                  </video>
+                  <div class="text">
+                    <h3>Game Time</h3>
+                    <h2>outting with friends</h2>
+                    <p>this is how a spend time with my friend when we decide to chill .</p>
+                   </div>
+            </div>
+
+            <div class="Blabel" >
+                <video width="400" controls Autoplay>
+                    <source src="game time.mov" type="video/mp4">
+                  </video>
+                <div class="text">
+                    <h3>Football </h3>
+                    <h2>indomtable lion Fan</h2>
+                    <p>A clans show of my passion for football specially my country football club</p>
+                   </div>
+            </div>
+        </div>
+
+        <div class="btn" id="btn_view">
+            <button  class="blue">VIEW ALL</button>
+        </div>
+
+        <div class="contact">
+
+        </div>
+        
+    </div>
+
+     <!----STARTING contact section SECTION-->
+     <div class="contact" id="contact">
+        <h1 class="topic">contact</h1>
+            <div class="content_layer">
+                <div class="r1">
+                    <div class="label" id="sendmail">
+                        <form >
+                            <div class="row">
+                              <div class="col-25">
+                                <label for="fname"> Name</label>
+                              </div>
+                              <div class="col-75">
+                                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-25">
+                                <label for="mail">Email</label>
+                              </div>
+                              <div class="col-75">
+                                <input type="text" id="email" name="email" placeholder="Enter your mail..">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-25">
+                                <label for="country">Country</label>
+                              </div>
+                              <div class="col-75">
+                                <select id="country" name="country">
+                                  <option value="cameroon">Cameroon</option>
+                                  <option value="cote divoire">Cote D'ivoire</option>
+                                  <option value="senegal">senegal</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-25">
+                                <label for="subject">Subject</label>
+                              </div>
+                              <div class="col-75">
+                                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                              </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                              <input type="submit" value="Submit">
+                            </div>
+                            </form>
+                    </div>
+                    <div class="label" id="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7961.395175076598!2d11.484135424147786!3d3.8748839887257773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x108bcf05b08ddc8d%3A0x834a28ae01747386!2sCite%20Verte%2C%20Yaound%C3%A9!5e0!3m2!1sfr!2scm!4v1650879838163!5m2!1sfr!2scm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                   
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+  <footer>
+      <div class="foot">
+          <h2>thanks for visiting</h2>
+          <p>Fuente development 2022.All Right Reserved <br> 
+            <span>Social Media</span></p>
+       <ul class="social">
+           <li><img src="facebook_circled_50px.png" alt=""></li>
+           <li><img src="twitter_30px.png" alt=""></li>
+           <li><img src="instagram_30px.png" alt=""></li>
+           <li><img src="youtube_32px.png" alt=""></li>
+       </ul>
+        
+      </div>
+  </footer>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+    </div>
+    
+</body>
+</html>

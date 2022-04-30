@@ -1,0 +1,712 @@
+body{
+    background-color: #EEEEEE;
+    background-image: url("mountain.jpg");
+    
+    height:5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+}
+h2{
+    text-transform: capitalize;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: lighter;
+    font-size:large;
+    letter-spacing: 2px;
+ 
+}
+
+.topic {
+    text-transform: capitalize;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: lighter;
+    
+    letter-spacing: 2px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    margin: 30px 0px 40px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;  
+}
+
+button{
+    border: none;
+    color: white;
+    height: 50px;
+    padding: 0px 20px;
+    margin: 0px 20px;
+    border-radius: 6px;
+
+}
+ .green {
+    background-color: #39C658;
+}
+.blue{
+    background-color: #A0BBEC;
+}
+
+.music-container{
+position: absolute;
+margin-left: 20%;
+
+}
+
+
+.box{
+    display: flex;
+    align-items: center;
+    background: #F1F3F4;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden;
+    width: 100%;
+}
+.image{
+    width: 30%;
+    height: 80px;
+
+  
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.music{
+    width: 75%;
+    text-align: center;
+    justify-content: center;
+}
+
+.music span{
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-weight: 20%;
+}
+
+audio{
+    outline: none;
+    background: none;  
+    background-color: #F1F3F4 !important;
+
+}
+.main{
+
+   margin: 0px 220px 0px 220px;
+}
+
+.navbar{
+    position: fixed;
+  top: 0px;
+    float: top;
+    width: 100%;
+    overflow: hidden;
+}
+
+ nav{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+
+}
+
+
+.logo span{
+    color:black;
+} 
+
+.logo{
+    color: #39C658;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 3px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+.navbar ul li:hover{
+    border-bottom-style: solid;
+    border-color: #39C658;
+}
+
+.navbar ul li a{
+    font-family: sans-serif;
+    color: black ;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;  
+}
+
+.navbar ul li a:hover{
+    color: #39C658;
+}
+
+
+
+.social li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+.social{
+    margin-right: 50px;
+    height: 20px;
+}
+
+/*** 
+END OF NAV BAR SECTION
+*/
+
+
+/***********************************************************************************************************************************************/
+
+
+
+
+/*** 
+STARTING ABOUT SECTION
+*/
+
+.about{
+    margin-top: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.pic img{
+    height: 400px;
+    padding: 30px 40px;
+   margin-top: -100px;
+}
+.info{
+   padding-left: 30px;
+}
+
+.info h1{
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+
+.info h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #9A9A9A;
+    margin-top:-20px ;
+
+}
+
+
+
+
+.info td{
+    padding:7px;
+    color: #9A9A9A;
+    border-left: 150px solid #FFF;
+}
+
+.info .tt{
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-weight: 20%;
+}
+  
+.info  tr>td:first-child {
+     border:0px;
+   }
+
+/*** 
+END OF  ABOUT SECTION
+*/
+
+
+/***********************************************************************************************************************************************/
+/***********************************************************************************************************************************************/
+
+/*** 
+START OF  SKILLS SECTION
+*/
+.skill{
+    background-color:#EEEEEE;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 200px;
+  
+}
+
+.skill .content{
+    background-color: white;
+    
+}
+
+.skill h1{
+    text-transform: capitalize;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.skill .computer{
+    margin-right: 30px;
+    padding: 10px;
+    
+    
+}
+
+.skill .computer .progress{
+    display: flex;
+    width: 100%;
+    margin: 10px auto;
+    margin-top: 30px;
+   
+}
+
+.progress h6{
+    margin-top: -5px;
+    font-size: medium;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    text-transform: capitalize  ;
+}
+
+.progress .progress-bar{
+    position: absolute;
+    margin-top: 30px;
+    width: 25%;
+    height: 5px;
+    border-radius: 30px;
+    background-color: #9A9A9A;
+}
+.progress-bar .progressing{
+    width: 10%;
+    height: 100%;
+    background-color: #39C658;
+    border-radius: 30px;
+}
+
+.progress-bar  .circle{
+    position: absolute;
+    left: 0;
+    margin-left: 10%;
+    width: 5px;
+    height: 5px;
+    background: white;
+    border: 6px solid  #39C658 ;
+    border-radius: 50%;
+    transform: translateY(-10px) translateX(-5px);
+}
+
+.progress .percent{
+    position: absolute;
+    margin-left: 28%;
+    margin-top: -12px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.contain{
+    background-color: white;
+    padding: 15px;
+    width: 450px;
+}
+
+#progress_0 .progressing{
+    width: 65%;
+    background-color: #F9C81B;
+}
+
+#progress_0 .circle{
+    margin-left: 65%;
+    border: 6px solid  #F9C81B ;
+}
+
+#progress_1 .progressing{
+    width: 80%;
+}
+
+#progress_1 .circle{
+    margin-left: 80%;
+}
+
+#progress_2 .progressing{
+    width: 70%;
+    background-color: #A0BBEC;
+}
+
+#progress_2 .circle{
+    margin-left: 70%;
+    border: 6px solid  #A0BBEC ;
+}
+
+#progress_3 .progressing{
+    width: 75%;
+    background-color: #F9C81B;
+}
+
+#progress_3 .circle{
+    margin-left: 75%;
+    border: 6px solid  #F9C81B ;
+}
+
+#progress_4 .progressing{
+    width: 90%;
+}
+
+#progress_4 .circle{
+    margin-left: 90%;
+}
+
+#progress_5 .progressing{
+    width: 72%;
+    background-color: #A0BBEC;
+}
+
+#progress_5 .circle{
+    margin-left: 72%;
+    border: 6px solid  #A0BBEC ;
+}
+
+
+/*** 
+END  OF  SKILLS SECTION
+*/
+
+/***********************************************************************************************************************************************/
+/***********************************************************************************************************************************************/
+
+
+/*** 
+HOW I WORK SECTION
+*/
+
+.how{
+    margin-top: 100px;
+}
+
+
+
+.how .how_content{
+    background-color:#EEEEEE;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.how_content .label{
+    padding-top: 50px;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    border: solid white;
+    border-radius: 2%;
+    height: 350px;
+    width: 250px;
+    margin-top: 10px;
+
+}
+.how_content .label img{
+height: 70px;
+width: 70px;
+}
+
+.how_content .label h2{
+    margin:  40px;
+}
+
+.how_content .label p{
+    letter-spacing: 1px;
+   word-spacing: 5px;
+    padding: 20px;
+    font-family:serif;
+    color: #9A9A9A;
+}
+
+
+
+/***********************************************************************************************************************************************/
+/***********************************************************************************************************************************************/
+
+
+/*** 
+interest SECTION
+*/
+.interest{
+    margin-top: 100px
+}
+.interest_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.interest_content div{
+    background-color: white;
+    padding: 40px;
+    align-items: center;
+    
+}
+
+.interest_content img{
+    height: 50px;
+}
+
+.interest_content h3{
+    text-transform: capitalize;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: lighter;
+    font-size:large;
+    letter-spacing: 1px;
+  
+}
+
+
+
+/***********************************************************************************************************************************************/
+/***********************************************************************************************************************************************/
+
+
+/*** 
+experience SECTION
+*/
+.layer{
+    margin-top: 100px;
+}
+ .content_layer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.content_layer .r1{
+    display: flex;
+    justify-content: space-between;
+}
+.content_layer .label{
+    background-color: white;
+    padding: 20px;
+    margin: 25px;
+    border-bottom-right-radius: 15%;
+    border-top: solid 3px #39C658;
+}
+
+
+
+.content_layer #label2{
+    border-top: solid 3px #A0BBEC;
+}
+
+
+.content_layer h2{
+    font-size:x-large;
+    word-spacing: 3px;
+}
+
+.content_layer h3{
+    color: #9A9A9A;
+}
+
+.content_layer h4{
+    margin-top: -15px;
+    text-transform: capitalize;
+    font-size: larger;
+    font-family:  monospace;
+    word-spacing: 3px;
+}
+
+
+#Elabel{
+    width: 500px;
+    height: 100px;
+}
+
+#Elabel1{
+    width: 500px;
+    margin-top: 100px;
+}
+
+
+/***********************************************************************************************************************************************/
+/***********************************************************************************************************************************************/
+
+
+/*** 
+blog SECTION
+*/
+
+.blog{
+    margin-top: 200px;
+}
+
+.blog iframe{
+    height: 300px;
+    width: 100%;
+}
+
+video{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}
+
+.Blabel{
+ 
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#btn_view{
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.Blabel .text{
+
+    padding: 10px;
+    text-align: left;
+}
+
+.Blabel h2{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.Blabel p{
+    width: 300px;
+    letter-spacing: 1px;
+   word-spacing: 5px;
+   
+    font-family:sans-serif;
+    color: #9A9A9A;
+}
+
+
+/***********************************************************************************************************************************************/
+/***********************************************************************************************************************************************/
+
+
+/*** 
+contact SECTION
+*/
+
+#map{
+    border-top: solid 3px #A0BBEC;
+    border-bottom-right-radius: 0%;
+    width: 500px;
+  }
+
+  #map iframe{
+      height: 100%;
+      width:100%;
+  }
+
+#sendmail{
+    width: 500px;
+}
+
+.contact #sendmail{
+    border-bottom-right-radius: 0%;
+  }
+
+
+input[type=text], select, textarea {
+    width: 75%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+  
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row{
+      margin-bottom: 30px;
+  }
+
+
+footer{
+    margin-top: 100px;
+}
+.foot{
+    text-align: center;
+}
+
+.foot img{
+    height: 30px;
+}
+
+
