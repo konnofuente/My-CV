@@ -1,0 +1,481 @@
+body{
+    background-color: #EEEEEE;
+    background-image: url("img/back.png");
+    
+    height:5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+}
+
+.container{
+    margin-top: 100px;
+   
+}
+
+ul li{
+    display: inline-block;
+  padding: 0px 10px 0px 10px;
+
+}
+ul{
+    width: 100%;
+    align-content: center;
+    text-align: center;   
+}
+
+    /*****************************timeline*****************/
+    .timeline{
+        margin: 50px auto;
+        padding: 0px 20px;
+        position: relative;
+    }
+    
+     .timeline .center-line{
+        background-color: #2F2F2F;
+        position: absolute;
+        height: 100%;
+        width: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
+    
+     .timeline .row{
+        display: flex;
+        justify-content: flex-start;
+    }
+   .timeline .row-1{
+        justify-content: flex-start;
+    }
+     .timeline .row-2{
+        justify-content: flex-end;
+    }
+    
+    .timeline .row section{
+        background-color: #2F2F2F;
+        border-radius: 5px;
+        width: 45%;
+        position: relative;
+    }
+    .timeline .row section::before{
+        position: absolute;
+        content: "";
+        height: 15px;
+        width: 15px;
+        background:#2F2F2F ;
+        top: 28px;
+        transform: rotate(45deg);
+        z-index: 1;
+    }
+    
+    .timeline .row-1 section::before{
+        right: -7px;
+    }
+    .timeline .row-2 section::before{
+        left: -7px;
+    }
+    
+    .timeline section .icon{
+        height: 30px;
+        position: absolute;
+        text-align: center;
+        background-color: #2F2F2F;
+        border-radius: 50%;
+        top: 13px;
+        
+    }
+    
+    .row-1 section .icon{
+        right: -55px;
+    }
+    .row-2 section .icon{
+        left: -55px;
+    }
+    
+    @media(max-width:1402px){
+       
+         .timeline .center-line{
+            left: 30px;
+        }
+         .timeline .row{
+            margin: 30px 3px 0px 60px;
+        }
+         .timeline .row section{
+            width: 100%;
+        }
+        
+         .row-1 section::before{
+            left: -7px;
+        }
+
+         .row-1 section .icon {
+            right: 107%;
+        }
+        
+}
+
+
+@media(max-width:900px){
+    .formation .row-1 section .icon {
+        right: 110%;
+    }
+}
+
+
+
+
+
+
+#sidebar{
+    background-color:#2F2F2F ;
+}
+
+#mainbar{
+    background-color: #0D0D0D;
+}
+#myPic{
+    border: solid 3px #43BDD9;
+    width: 55%;
+}
+h1,h2,h4{
+    color:#D99E32 ;
+    text-transform: capitalize;
+}
+h3{
+    color:#D99E32 ;
+    text-transform: capitalize;
+   margin-right: 0px;
+   text-align: left;
+}
+.line{
+    height: 4px;
+    background-color: #43BDD9;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.contact ul li img{
+width: 30px;
+
+
+}
+
+#about_content{
+height: 250px;
+}
+
+.loisir ul li img{
+    width: 50px;
+    
+}
+
+.loisir ul li{
+    margin: 5px 50px 5px 10px;
+}
+
+.wrapper{
+    margin-top: 10px;
+}
+.wrapper #p{
+    font-weight: bold;
+    font-size: large;
+}
+span{
+    background-color: #D99E32;
+    border-radius: 50%;
+    margin-right: 40px;
+    padding: 5px;
+    font-size: 10px;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    position: relative;
+}
+
+.slider .range{
+    width: 100%;
+    background-color: #2F2F2F;
+    z-index: 1;
+    opacity: 0.1;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    height: 10px;
+    background-color: white;
+
+}
+
+.range::-webkit-slider-runnable-track{
+    width: 100%;
+    height: 10px;
+    background: rgba(138, 138, 138,0.1);
+    border-radius: 10px;
+}
+
+
+#french-progress{
+position:absolute;
+left: 10px;
+margin-left: -10px;
+width: 100px;
+border-radius: 10px;
+height: 10px;
+background-color: #43BDD9;
+transition: 0.5s width;
+z-index: 1;
+cursor: pointer;
+}
+
+
+
+#english-progress{
+    position:absolute;
+    left: 10px;
+    margin-left: -10px;
+    width: 100px;
+    border-radius: 10px;
+    height: 10px;
+    background-color: #43BDD9;
+    transition: 0.5s width;
+    z-index: 1;
+    cursor: pointer;
+    }
+
+#edit_btn{
+    display: flex;
+   float:right;
+   margin: 1px 3px 1px 3px;
+    margin-bottom: 10px;
+}
+
+#edit_btn img{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #0D0D0D;
+}
+
+
+
+/**************competance*****/
+
+#photoshop-progress{
+    position:absolute;
+    left: 10px;
+    margin-left: -10px;
+    width: 100px;
+    border-radius: 10px;
+    height: 10px;
+    background-color: #43BDD9;
+    transition: 0.5s width;
+    z-index: 1;
+    cursor: pointer;
+    }
+
+    #illustrator-progress{
+        position:absolute;
+        left: 10px;
+        margin-left: -10px;
+        width: 100px;
+        border-radius: 10px;
+        height: 10px;
+        background-color: #43BDD9;
+        transition: 0.5s width;
+        z-index: 1;
+        cursor: pointer;
+        }
+
+     #wordpress-progress{
+        position:absolute;
+        left: 10px;
+        margin-left: -10px;
+        width: 100px;
+        border-radius: 10px;
+        height: 10px;
+        background-color: #43BDD9;
+        transition: 0.5s width;
+        z-index: 1;
+        cursor: pointer;
+        }
+
+#spiritaul-progress{
+position:absolute;
+left: 10px;
+margin-left: -10px;
+width: 100px;
+border-radius: 10px;
+height: 10px;
+background-color: #43BDD9;
+transition: 0.5s width;
+z-index: 1;
+cursor: pointer;
+}
+
+#java-progress{
+    position:absolute;
+    left: 10px;
+    margin-left: -10px;
+    width: 100px;
+    border-radius: 10px;
+    height: 10px;
+    background-color: #43BDD9;
+    transition: 0.5s width;
+    z-index: 1;
+    cursor: pointer;
+    }
+
+#general-progress{
+    position:absolute;
+    left: 10px;
+    margin-left: -10px;
+    width: 100px;
+    border-radius: 10px;
+    height: 10px;
+    background-color: #43BDD9;
+    transition: 0.5s width;
+    z-index: 1;
+    cursor: pointer;
+    }
+
+
+
+    /********************************formation******/
+
+    .formation h4,h6{
+        text-transform: capitalize;
+    }
+
+    .formation h4{
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .formation h6{
+        font-style: italic;
+    }
+
+
+/********************************education******/
+.education .timeline section .icon{
+    height: 40px;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.r1 section{
+    border-top: solid 5px #D99E32;
+}
+
+.r2 section{
+    border-top: solid 5px #6AD9B0;
+}
+
+.r3 section{
+    border-top: solid 5px #D99E32;
+}
+
+
+.footer{
+    text-align: center;
+    background-color: #2F2F2F;
+    height: 100px;
+    width: 100%;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    margin: auto;
+}
+
+
+
+
+#userform input[name="phone"] {
+    grid-area: name;
+  }
+  
+  #userform input[name="email"] {
+    grid-area: age;
+  }
+  
+  #userform input[name="city"] {
+    grid-area: roll;
+  }
+  
+  #userform button {
+    grid-area: button;
+  }
+  
+  #userform {
+    display: grid;
+    width: 50%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "name name"
+      "age roll"
+      "button button";
+  }
+  
+  #userform * {
+    margin: 7px;
+    padding: 7px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  #userform button {
+    outline: none;
+    background-color: #D99E32;
+    color: white;
+    border: 5px solid transparent;
+    cursor: pointer;
+  }
+  
+  #userform input {
+    border: 3px solid #D99E32;
+    outline: none;
+  }
+  
+  #userform input:focus {
+    border: 3px solid #43BDD9;
+  }
+  
+  #userform button:active {
+    border-color: #43BDD9;
+  }
+  
+  .students {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid gray;
+    background-color: #ebebeb;
+    color: #2f2f2f;
+    border-radius: 15px;
+  }
+  
+  .students div {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .students div * {
+    margin: 5px;
+  }
+
+  .form{
+      display: flex;
+      justify-content: center;
+      display: none;
+  }

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body >
+    <div class="container p-1 ">
+       
+
+        <div class="row">
+            <div class="col-sm-3 text-white  py-4 border" id="sidebar">
+              <div class="header-left">
+                  <!-- <button onclick="enter()" class="btn " id="add_info"><img src="img/plus_+_52px.png" alt=""></button> -->
+                  
+                  <img id="myPic" src="IMG_3124.JPG" alt="My picture" class="img-thumbnail rounded-circle mx-auto d-block">
+                  <h2 id="name"> </h2>
+             
+
+              </div>
+<!----------------------------contact----------------------->
+              <div class="contact mt-3">
+                  <h3 class="h3 mt-4 ">contact</h3>
+                  <div class="line"></div>
+                  <table class=" table text-wrap table-sm-responsive table-borderless text-white text-align-left">
+                      <tr>
+                          <td><img src="img/phone_24px.png" alt="" srcset=""></td>
+                          <td id="phone" class="td-sm-responsive">23765363002</td>
+                      </tr>
+                      <tr>
+                        <td><img src="img/mail_30px.png" alt="" srcset=""></td>
+                        <td id="mail" class="td-sm text-wrap">konomelifuente@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/location_24px.png" alt="" srcset=""></td>
+                        <td id="city" class="td-sm text-wrap">cite-verte Yaounde</td>
+                    </tr>
+                  </table>
+                  <ul class="list-unstyled  d-inline-block" id="icon">
+                      <li><a href="#"><img src="img/1github_26px.png" alt="" srcset=""></a></li>
+                      <li><a href="#"><img src="img/linkedin_2_50px.png" alt="" srcset=""></a></li>
+                      <li><a href="#"><img src="img/stack_overflow_32px.png" alt="" srcset=""></a></li>
+                  </ul>
+              </div>
+
+<!----------------------------about----------------------->
+
+              <div class="about me mt-3">
+                <h3 class="h3 mt-4 ">about me</h3>
+                <div class="line"></div>
+                <div class=" overflow-auto" id="about_content">
+                    <p id="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius aliquam, omnis commodi nemo laborum minima nam! Voluptatibus, perspiciatis! Nihil doloribus cumque omnis iusto veniam, id, aliquid similique ipsam provident eius magnam atque pariatur. Repellat voluptatem, cumque quasi obcaecati odit alias nisi nobis necessitatibus. Dignissimos aliquam provident nostrum nisi impedit.</p>
+                </div>
+           
+            </div>
+
+<!----------------------------loisir----------------------->
+
+
+            <div class="loisir mt-5">
+                <h3 class="h3 mt-4 ">loisir</h3>
+                <div class="line"></div>
+                <ul class="list-unstyled  d-inline-block" id="icon">
+                    <li><img src="img/basketball_player_48px.png" alt="" srcset=""><br>
+                    Bascket Ball
+                    </li>
+                    <li><img src="img/party_100px.png" alt="" srcset=""><br>
+                   Party
+                    </li>
+                </ul>
+                <ul class="list-unstyled  d-inline-block" id="icon">
+                    <li><img src="img/traveler_100px.png" alt="" srcset=""><br>
+                    Travel
+                    </li>
+                    <li><img src="img/read_online_64px.png" alt="" srcset=""><br>
+                    Read
+                    </li>
+                </ul>
+            </div>
+
+<!---------------------------langauge----------------------->
+
+            <div class="langauge mt-5">
+                <h3 class="h3 mt-4 ">langauge</h3>
+                <div class="line"></div>
+                
+                    <div class="edit-btn" id="edit_btn" onclick="edit()">
+                        <img src="img/edit_24px.png" alt="" srcset="">
+                    </div>
+                    <div class="edit-btn" id="edit_btn" onclick="dis_edit()">
+                        <img src="img/cancel_26px.png" alt="" srcset="">
+                    </div>
+                    <br>
+                    <div class="wrapper">
+                        <p id="p">French <span id="span">40</span></p>
+                        <div class="slider">
+                            <input type="range" value="" class="range" id="range" disabled>
+                            <div id="french-progress"></div>
+                        </div>
+                    </div>
+
+                    <div class="wrapper">
+                        <p id="p">English <span id="span1">40</span></p>
+                        <div class="slider">
+                            <input type="range" value="" class="range" id="range1" disabled>
+                            <div id="english-progress"></div>
+                        </div>
+                    </div>
+
+        
+            
+            
+               
+            </div>
+            </div>
+
+            <div class="col-sm-9 text-white py-4 px-5 border" id="mainbar">
+
+<!-----------------------------------section education------------------------->
+
+<div class="education mt-3">
+    <h3 class="h3 mt-4 ">education</h3>
+    <hr style="height: 3px;">
+    <div class="timeline">
+        <div class="center-line">
+
+        </div>
+        <div class="row row-1 r1">
+           <section>
+            <div class="icon"><img src="img/writer_male_24px.png" alt="" srcset=""></div>
+            <div class="details">
+                <h4 class="title">GCE OLEVE</h4>
+                <h6>2017</h6>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur ullam accusantium doloremque explicabo modi aut maxime perspiciatis similique veritatis itaque?</p>
+           </section>
+        </div>
+
+        <div class="row row-2 r2">
+            <section >
+                <div class="icon"><img src="img/graduation_cap30px.png" alt="" srcset=""></div>
+             <div class="details">
+                 <h4 class="title">GCE ADVANCE LEVEL</h1>
+                 <h6>Aug-Oct 2020</h6>
+             </div>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur ullam accusantium doloremque explicabo modi aut maxime perspiciatis similique veritatis itaque?</p>
+             
+            </section>
+         </div>
+
+         <div class="row row-1 r3">
+            <section>
+             <div class="icon"><img src="img/university_campus_30px.png" alt="" srcset=""></div>
+             <div class="details">
+                 <h4 class="title">LICENCE</h1>
+                 <h6>jun-aug 2022</h6>
+             </div>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur ullam accusantium doloremque explicabo modi aut maxime perspiciatis similique veritatis itaque?</p>
+            </section>
+         </div>
+
+    </div>
+
+   
+</div>
+
+
+<!-----------------------------------section competance------------------------->
+<div class="competance mt-3">
+                    <h3 class="h3 mt-4 ">competance</h3>
+                    <hr style="height: 3px;">
+                   <div class="row row-col-auto">
+                       
+                       <!---------------------comptence 1-->
+                       <div class="col-lg-6 col-md-11" id="test">
+                       
+                            <div class="C-edit-btn" id="edit_btn" onclick="edit_competance()">
+                                <img src="img/edit_24px.png" alt="" srcset="">
+                            </div>
+                            <div class="C-edit-btn" id="edit_btn" onclick="C_dis_edit()">
+                                <img src="img/cancel_26px.png" alt="" srcset="">
+                            </div>
+                            <br>
+                            <div class="wrapper">
+                                <p id="p">Photoshop <span class="span" id="C-span1">40</span></p>
+                                <div class="slider">
+                                    <input type="range" value="" class="range" id="C-range1" disabled>
+                                    <div id="photoshop-progress"></div>
+                                </div>
+                            </div>
+
+                            <div class="wrapper">
+                                <p id="p">illustrator <span id="C-span2">40</span></p>
+                                <div class="slider">
+                                    <input type="range" value="" class="range" id="C-range2" disabled>
+                                    <div id="illustrator-progress"></div>
+                                </div>
+                            </div>
+
+                            <div class="wrapper">
+                                <p id="p">wordpress <span id="C-span3">40</span></p>
+                                <div class="slider">
+                                    <input type="range" value="" class="range" id="C-range3" disabled>
+                                    <div id="wordpress-progress"></div>
+                                </div>
+                            </div>
+
+        
+                
+                       </div>
+
+                       <!---------------------comptence 2-->
+                       <div class="col-lg-6 col-md-11" id="test">
+
+                        <br>
+                        <div class="wrapper">
+                            <p id="p">Spiritaul Strenght <span class="span" id="C-span4">40</span></p>
+                            <div class="slider">
+                                <input type="range" value="" class="range" id="C-range4" disabled>
+                                <div id="spiritaul-progress"></div>
+                            </div>
+                        </div>
+
+                        <div class="wrapper">
+                            <p id="p">java <span id="C-span5">40</span></p>
+                            <div class="slider">
+                                <input type="range" value="" class="range" id="C-range5" disabled>
+                                <div id="java-progress"></div>
+                            </div>
+                        </div>
+
+                        <div class="wrapper">
+                            <p id="p">General Knowledge <span id="C-span6">40</span></p>
+                            <div class="slider">
+                                <input type="range" value="" class="range" id="C-range6" disabled>
+                                <div id="general-progress"></div>
+                            </div>
+                        </div>
+                   
+
+
+                       </div>
+                   </div>
+                </div>
+
+
+<!-------------------------------------------section Formation----------->
+
+<div class="formation mt-3">
+    <h3 class="h3 mt-4 ">Formation</h3>
+    <hr style="height: 3px;">
+
+    <div class="timeline">
+        <div class="center-line">
+
+        </div>
+        <div class="row row-1">
+           <section>
+            <div class="icon"><img src="img/star_24px.png" alt="" srcset=""></div>
+            <div class="details">
+                <h4 class="title">Serigraphy</h4>
+                <h6>2015</h6>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur ullam accusantium doloremque explicabo modi aut maxime perspiciatis similique veritatis itaque?</p>
+           </section>
+        </div>
+
+        <div class="row row-2">
+            <section>
+                <div class="icon"><img src="img/star_24px.png" alt="" srcset=""></div>
+             <div class="details">
+                 <h4 class="title">photoshop designer</h1>
+                 <h6>Aug-Oct 2017</h6>
+             </div>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur ullam accusantium doloremque explicabo modi aut maxime perspiciatis similique veritatis itaque?</p>
+             
+            </section>
+         </div>
+
+         <div class="row row-1">
+            <section>
+             <div class="icon"><img src="img/star_24px.png" alt="" srcset=""></div>
+             <div class="details">
+                 <h4 class="title">driving licence</h1>
+                 <h6>jun-aug 2019</h6>
+             </div>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur ullam accusantium doloremque explicabo modi aut maxime perspiciatis similique veritatis itaque?</p>
+            </section>
+         </div>
+ 
+         <div class="row row-2">
+             <section>
+                 <div class="icon"><img src="img/star_24px.png" alt="" srcset=""></div>
+              <div class="details">
+                  <h4 class="title">web development</h1>
+                  <h6>2021-2022</h6>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur ullam accusantium doloremque explicabo modi aut maxime perspiciatis similique veritatis itaque?</p>
+              
+             </section>
+          </div>
+    </div>
+
+
+    
+
+</div>
+
+
+            </div>  
+        </div>
+        
+
+    </div>
+    <div class="footer">
+        thank for visiting <br>
+        copy@right Fuente <br>
+        Fuente Made
+    </div>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
